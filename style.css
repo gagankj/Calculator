@@ -1,39 +1,23 @@
-#add:hover{
-    
-    border: 1px solid slategrey;
+
+body{
+    font-family: sans-serif;
 }
 #container{
     background-color: transparent;
     backdrop-filter: blur(10px);
     border: 1px solid rgb(112, 113, 114);
 }
+h1{
+    font-weight: 600;
+}
+
+button:hover{
+    border: 2px solid white;
+}
 #main{
     background: radial-gradient(rgb(39, 179, 248),white);
 }
-#divide:hover{
-    
-    border: 1px solid rgb(112, 113, 114);
-}
-#minus:hover{
-    
-    border: 1px solid slategrey;
-}
-#multiply:hover{
-    
-    border: 1px solid slategrey;
-}
-#clear:hover{
-    
-    border: 1px solid slategrey;
-}
-#back:hover{
-    
-    border: 1px solid slategrey;
-}
-#equal:hover{
-    
-    border: 1px solid slategrey;
-}
+
 
 @media screen and (max-width: 700px) {
     #slate{
